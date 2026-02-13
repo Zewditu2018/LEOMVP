@@ -5,11 +5,11 @@ using Microsoft.Extensions.Logging;
 
 namespace LEOMVP.Azure_Function
 {
-    public class Function1
+    public class AddAdoFunction
     {
-        private readonly ILogger<Function1> _logger;
+        private readonly ILogger<AddAdoFunction> _logger;
 
-        public Function1(ILogger<Function1> logger)
+        public AddAdoFunction(ILogger<AddAdoFunction> logger)
         {
             _logger = logger;
         }
