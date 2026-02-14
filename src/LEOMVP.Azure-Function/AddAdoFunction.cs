@@ -5,6 +5,7 @@ using Microsoft.Extensions.Logging;
 
 namespace LEOMVP.Azure_Function
 {
+    // this this the Azure function
     public class AddAdoFunction
     {
         private readonly ILogger<AddAdoFunction> _logger;
