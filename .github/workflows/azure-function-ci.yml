@@ -9,7 +9,6 @@ env:
   AZURE_FUNCTIONAPP_NAME: "LEO-function-app"
   DOTNET_VERSION: "8.0.x"
   PROJECT_PATH: "src/LEOMVP.Azure-Function/LEOMVP.Azure-Function.csproj"
-"
 
 jobs:
   build-and-deploy:
