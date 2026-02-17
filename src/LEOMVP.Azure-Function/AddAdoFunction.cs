@@ -23,7 +23,7 @@ namespace LEOMVP.Azure_Function
 
         [Function("AddAdo")]
         public async Task<HttpResponseData> Run(
-            [HttpTrigger(AuthorizationLevel.Anonymous, "get", "post")] HttpRequestData req)
+            [HttpTrigger(AuthorizationLevel.Function, "get", "post")] HttpRequestData req)
         {
             var raw = await new StreamReader(req.Body).ReadToEndAsync();
 
