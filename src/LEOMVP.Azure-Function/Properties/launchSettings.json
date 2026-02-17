@@ -3,13 +3,6 @@
     "LEOMVP.Azure_Function": {
       "commandName": "Project",
       "commandLineArgs": "--port 7081"
-    },
-    "Container (Dockerfile)": {
-      "commandName": "Docker",
-      "launchUrl": "{Scheme}://{ServiceHost}:{ServicePort}",
-      "containerRunArguments": "--init",
-      "httpPort": 34843,
-      "useSSL": false
     }
   }
 }
