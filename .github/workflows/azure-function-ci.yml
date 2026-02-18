@@ -2,7 +2,7 @@ name: Build and Deploy Azure Function (.NET)
 
 on:
   push:
-    branches: [ "main" ]
+    branches: [ "production-flow" ]
   workflow_dispatch:
 
 env:
@@ -12,7 +12,7 @@ env:
 
 jobs:
   build-and-deploy:
-    runs-on: windows-latest
+    runs-on: ubuntu-latest
 
     steps:
       - name: Checkout
